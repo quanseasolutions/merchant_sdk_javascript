@@ -21,6 +21,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 /* Apply the gradient background to body */
@@ -410,6 +411,14 @@ button:active {
 }
 
 @media (max-height: 576px) {
+  body {
+    overflow: auto;
+  }
+
+  .content {
+    padding-bottom: 40px;
+  }
+
   .quantity-control {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -427,4 +436,9 @@ button:active {
     width: 1.5em;
     height: 1.5em;
   }
+
+  #successContainer {
+    margin-top: 0;
+  }
+
 }
