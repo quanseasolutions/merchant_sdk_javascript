@@ -13,6 +13,7 @@
   --error-darker: #c2543b;
   --success: #5dd784;
   --warning: #ffc238;
+  --black: #000000;
 }
 
 /* Ensure html and body take full height */
@@ -54,6 +55,7 @@ body {
 .header {
   padding-bottom: 24px;
   margin-bottom: 2vh;
+  background-color: var(--black);
 }
 
 .logo-container {
@@ -293,11 +295,11 @@ button:active {
     font-size: 1em;
   }
 
-  .quantity-control button {
+  /* .quantity-control button {
     width: 9vw;
     height: 9vw;
     font-size: 1em;
-  }
+  } */
 
   #buyButton {
     margin-top: 1em;
@@ -360,11 +362,11 @@ button:active {
     font-size: 1.2em;
   }
 
-  .quantity-control button {
+  /* .quantity-control button {
     width: 8vw;
     height: 8vw;
     font-size: 1.25em;
-  }
+  } */
 
   #buyButton {
     margin-top: 1em;
