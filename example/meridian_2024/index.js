@@ -56,11 +56,19 @@ document.addEventListener("DOMContentLoaded", () => {
   document
     .getElementById("cancelButton")
     .addEventListener("click", resetApplication);
+    document
+    .getElementById("successButton")
+    .addEventListener("click", successFunction);
   document
     .getElementById("doneButton")
     .addEventListener("click", resetApplication);
 });
 
+function successFunction () {
+  document.getElementById("purchase-section").style.display = "none";
+  document.getElementById("proceed-container").style.display = "none";
+  showSuccessMessage();
+}
 function updateTotal() {
   document.getElementById("product-amount").textContent = product.quantity;
 
