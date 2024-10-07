@@ -361,8 +361,8 @@ button:active {
   }
 
   .quantity-control button {
-    width: 9vw;
-    height: 9vw;
+    width: 8vw;
+    height: 8vw;
     font-size: 1.25em;
   }
 
@@ -439,10 +439,10 @@ button:active {
     margin: 15px 0;
   }
 
-  .quantity-control button {
+  /* .quantity-control button {
     width: 1.5em;
     height: 1.5em;
-  }
+  } */
 
   #successContainer {
     margin-top: 0;
