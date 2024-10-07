@@ -213,7 +213,7 @@ footer {
 .footer-logos {
   display: flex;
   justify-content: space-around;
-  width: 250px;
+  width: 100%;
 }
 
 .meridian-x-beans-logo {
@@ -411,14 +411,6 @@ button:active {
 }
 
 @media (max-height: 576px) {
-  body {
-    overflow: auto;
-  }
-
-  #app{
-    margin-bottom: 60px;
-  }
-
   .quantity-control {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -441,4 +433,15 @@ button:active {
     margin-top: 0;
   }
 
+}
+
+
+@media (max-height: 510px) {
+  body {
+    overflow: auto;
+  }
+
+  #app{
+    margin-bottom: 50px;
+  }
 }
