@@ -416,12 +416,8 @@ button:active {
   }
 
   #app{
-    padding-bottom: 60px;
+    margin-bottom: 40px;
   }
-
-  /* .content {
-    padding-bottom: 40px;
-  } */
 
   .quantity-control {
     margin-top: 20px;
