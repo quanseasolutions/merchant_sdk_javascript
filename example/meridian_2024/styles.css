@@ -107,6 +107,7 @@ body {
 }
 
 .quantity-control button {
+  padding: 0;
   width: 1.8em;
   height: 1.8em;
   font-size: 1.5em;
@@ -166,7 +167,7 @@ body {
   color: var(--on-error);
   padding: 10px 20px;
   font-size: 1em;
-  /* margin: 20px auto 0 auto; */
+  margin: 20px auto 0 auto;
   display: inline-block;
   font-family: "Kurale", serif;
 }
@@ -292,11 +293,11 @@ button:active {
     font-size: 1em;
   }
 
-  /* .quantity-control button {
+  .quantity-control button {
     width: 9vw;
     height: 9vw;
     font-size: 1em;
-  } */
+  }
 
   #buyButton {
     margin-top: 1em;
@@ -359,11 +360,11 @@ button:active {
     font-size: 1.2em;
   }
 
-  /* .quantity-control button {
+  .quantity-control button {
     width: 9vw;
     height: 9vw;
     font-size: 1.25em;
-  } */
+  }
 
   #buyButton {
     margin-top: 1em;
@@ -438,10 +439,10 @@ button:active {
     margin: 15px 0;
   }
 
-  /* .quantity-control button {
+  .quantity-control button {
     width: 1.5em;
     height: 1.5em;
-  } */
+  }
 
   #successContainer {
     margin-top: 0;
