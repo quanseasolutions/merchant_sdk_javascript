@@ -110,6 +110,7 @@ body {
   width: 1.8em;
   height: 1.8em;
   font-size: 1.5em;
+  padding: 0;
   background-color: var(--secondary);
   color: var(--on-secondary);
 }
