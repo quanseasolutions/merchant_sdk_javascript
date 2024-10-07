@@ -165,7 +165,7 @@ body {
   color: var(--on-error);
   padding: 10px 20px;
   font-size: 1em;
-  margin: 20px auto 0 auto;
+  /* margin: 20px auto 0 auto; */
   display: inline-block;
   font-family: "Kurale", serif;
 }
@@ -221,6 +221,12 @@ footer {
   opacity: 50%;
   display: block;
   margin: 0 auto;
+}
+
+.sea-test {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
 }
 
 /* Common Button Styles */
@@ -285,11 +291,11 @@ button:active {
     font-size: 1em;
   }
 
-  .quantity-control button {
+  /* .quantity-control button {
     width: 9vw;
     height: 9vw;
     font-size: 1em;
-  }
+  } */
 
   #buyButton {
     margin-top: 1em;
@@ -352,11 +358,11 @@ button:active {
     font-size: 1.2em;
   }
 
-  .quantity-control button {
+  /* .quantity-control button {
     width: 9vw;
     height: 9vw;
     font-size: 1.25em;
-  }
+  } */
 
   #buyButton {
     margin-top: 1em;
@@ -431,10 +437,10 @@ button:active {
     margin: 15px 0;
   }
 
-  .quantity-control button {
+  /* .quantity-control button {
     width: 1.5em;
     height: 1.5em;
-  }
+  } */
 
   #successContainer {
     margin-top: 0;
