@@ -165,7 +165,7 @@ body {
   color: var(--on-error);
   padding: 10px 20px;
   font-size: 1em;
-  /* margin: 20px auto 0 auto; */
+  margin: 20px auto 0 auto;
   display: inline-block;
   font-family: "Kurale", serif;
 }
@@ -221,12 +221,6 @@ footer {
   opacity: 50%;
   display: block;
   margin: 0 auto;
-}
-
-.sea-test {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
 }
 
 /* Common Button Styles */
@@ -422,8 +416,15 @@ button:active {
     margin-bottom: 20px;
   }
 
+  .order-id,
+  .total-price,
+  .success-title,
+  .success-subtitle {
+    margin: 10px 0;
+  }
+
   .total-price {
-    margin: 0 !important;
+    margin: 10px 0;
   }
 
   .product-title {
