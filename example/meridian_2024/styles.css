@@ -415,9 +415,13 @@ button:active {
     overflow: auto;
   }
 
-  .content {
-    padding-bottom: 40px;
+  #app{
+    padding-bottom: 60px;
   }
+
+  /* .content {
+    padding-bottom: 40px;
+  } */
 
   .quantity-control {
     margin-top: 20px;
